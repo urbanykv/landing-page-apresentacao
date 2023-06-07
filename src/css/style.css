@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+:root{
+    --corheader: #3C3066;
+    --corbody: #463582;
+    --cordiv: #5E3EAD;
+    --cortexto: #2cf79b;
+}
+
+body{
+    background-color: var(--corbody);
+}
+
+span{
+ color: var(--cortexto);
+}
+
+header{
+    height: 100px;
+    background-color: var(--corheader);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo-urban{
+    width: 100px;
+}
+
+nav{
+    display: flex;
+    gap: 25px;
+}
+
+a{
+ color: white;
+ transition: 0.2s;
+}
+
+a:hover{
+    transform: scale(1.05);
+    color: var(--cortexto);
+}
+
+main{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 435px;
+padding: 50px;
+}
+
+.foto-perfil{
+    width: 300px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
+}
+
+.texto-principal{
+
+}
+
+.titulo{
+    color: white;
+    font-size: 40px;
+}
+
+.titulo2{
+    color: white;
+    font-size: 22px;
+}
+
+.paragrafo{
+    color: white;
+    font-size: 17px;
+}
+
+.div-inicial{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: var(--cordiv);
+    height: 425px;
+}
+
+.div-coluna{
+    background-color: var(--cordiv);
+    margin: 100px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 425px;
+}
+
+.div{
+    background-color: var(--cordiv);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+    margin: 100px 0px 0px 0px;
+}
+
+hr{
+    width: 250px;
+    margin: 5px auto;
+}
+
+#sobre{
+    display: flex;
+    gap: 25px;
+    background-color: black;
+    width: 585px;
+    height: 250px;
+    padding: 15px;
+    border-radius: 15px 0px;
+}
+
+#quemsoueu{
+    text-align: center;
+    font-size: 18px;
+}
+
+.foto-sobre{
+    box-shadow: 2px 2px 1px #2cf79b;
+}
+
+footer{
+    background-color:var(--corheader);
+    padding: 25px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.redes-nav{
+    display: flex;
+    gap: 5px;
+}
+
+.redes-sociais{
+    width: 30px;
+}
