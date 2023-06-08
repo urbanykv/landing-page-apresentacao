@@ -60,8 +60,8 @@ padding: 50px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
 }
 
-.texto-principal{
-
+#paragrafo-principal{
+    width: 500px;
 }
 
 .titulo{
@@ -124,7 +124,11 @@ hr{
 
 #quemsoueu{
     text-align: center;
-    font-size: 18px;
+    font-size: 23px;
+}
+
+#paragrafo-quemsoueu{
+    font-size: 20px;
 }
 
 .foto-sobre{
@@ -149,4 +153,310 @@ footer{
 
 .redes-sociais{
     width: 30px;
+}
+
+@media (max-width: 1007px) {
+    body{
+        background-color: var(--corbody);
+    }
+    
+    span{
+     color: var(--cortexto);
+    }
+    
+    header{
+        height: 100px;
+        background-color: var(--corheader);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #logo-urban{
+        width: 100px;
+    }
+    
+    nav{
+        display: flex;
+        gap: 25px;
+    }
+    
+    a{
+     color: white;
+     transition: 0.2s;
+    }
+    
+    a:hover{
+        transform: scale(1.05);
+        color: var(--cortexto);
+    }
+    
+    main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 510px;
+    padding: 50px;
+    }
+    
+    .foto-perfil{
+        width: 250px;
+        border-radius: 50px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
+    }
+    
+    #paragrafo-principal{
+        width: 500px;
+    }
+    
+    .titulo{
+        color: white;
+        font-size: 35px;
+    }
+    
+    .titulo2{
+        color: white;
+        font-size: 22px;
+    }
+    
+    .paragrafo{
+        color: white;
+        font-size: 16px;
+    }
+    
+    .div-inicial{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        background-color: var(--cordiv);
+        height: 425px;
+    }
+    
+    .div-coluna{
+        background-color: var(--cordiv);
+        margin: 100px 0px 100px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 425px;
+    }
+    
+    .div{
+        background-color: var(--cordiv);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 100px;
+        gap: 30px;
+        margin: 100px 0px 0px 0px;
+    }
+    
+    hr{
+        width: 250px;
+        margin: 5px auto;
+    }
+    
+    #sobre{
+        display: flex;
+        gap: 25px;
+        background-color: black;
+        width: 555px;
+        height: 230px;
+        padding: 15px;
+        border-radius: 15px 0px;
+    }
+    
+    #quemsoueu{
+        text-align: center;
+        font-size: 23px;
+    }
+    
+    #paragrafo-quemsoueu{
+        font-size: 19px;
+    }
+    
+    .foto-sobre{
+        box-shadow: 2px 2px 1px #2cf79b;
+    }
+    
+    footer{
+        background-color:var(--corheader);
+        padding: 25px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .redes-nav{
+        display: flex;
+        gap: 5px;
+    }
+    
+    .redes-sociais{
+        width: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    body{
+        background-color: var(--corbody);
+    }
+    
+    span{
+     color: var(--cortexto);
+    }
+    
+    header{
+        height: 125px;
+        background-color: var(--corheader);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #logo-urban{
+        width: 70px;
+    }
+    
+    nav{
+        display: flex;
+        gap: 25px;
+    }
+    
+    a{
+        font-size: 12px;
+     color: white;
+     transition: 0.2s;
+    }
+    
+    a:hover{
+        transform: scale(1.05);
+        color: var(--cortexto);
+    }
+    
+    main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 510px;
+    padding: 50px;
+    }
+    
+    .foto-perfil{
+        width: 170px;
+        border-radius: 50px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
+    }
+    
+    #paragrafo-principal{
+        width: 300px;
+        text-align: center;
+    }
+    
+    .titulo{
+        color: white;
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .titulo2{
+        color: white;
+        font-size: 22px;
+    }
+    
+    .paragrafo{
+        color: white;
+        font-size: 16px;
+    }
+    
+    .div-inicial{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        background-color: var(--cordiv);
+        height: 425px;
+    }
+    
+    .div-coluna{
+        background-color: var(--cordiv);
+        margin: 100px 0px 100px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 425px;
+    }
+    
+    .div{
+        background-color: var(--cordiv);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 100px;
+        gap: 30px;
+        margin: 100px 0px 0px 0px;
+    }
+    
+    hr{
+        width: 150px;
+        margin: 5px auto;
+    }
+    
+    #sobre{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        background-color: black;
+        width: 230px;
+        height: 375px;
+        padding: 15px;
+        border-radius: 15px 0px;
+    }
+    
+    #quemsoueu{
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    #paragrafo-quemsoueu{
+        font-size: 13.5px;
+    }
+    
+    .foto-sobre{
+        align-self: center;
+        justify-self: center;
+        display: flex;
+        width: 120px;
+        box-shadow: 2px 2px 1px #2cf79b;
+    }
+    
+    footer{
+        background-color:var(--corheader);
+        padding: 25px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .redes-nav{
+        display: flex;
+        gap: 5px;
+    }
+    
+    .redes-sociais{
+        width: 30px;
+    }
 }
