@@ -155,7 +155,7 @@ footer{
     width: 30px;
 }
 
-@media (max-width: 1007px) {
+@media (max-width: 900px) {
     body{
         background-color: var(--corbody);
     }
